@@ -1,0 +1,76 @@
+body{
+    
+    background-color: blanchedalmond;
+    background-repeat: repeat;
+    opacity: 1;
+}
+#resume{
+    color:red;
+    /* background-color:aquamarine; */
+    align-items: center;
+}
+.contact{
+    text-align: center;
+    font-family:cursive;
+}
+#email{
+    margin-right: 16px;
+    margin-left: -44px;
+}
+#linkedin{
+    margin-right: 20px;
+}
+.project{
+    font-size: x-large;
+    font-weight: 400;
+
+}
+#edu{
+    width: 50%;
+    text-align: center;
+    margin-left: 24%;
+    height: 20%;
+}
+#edu>tbody>tr>th{
+    background-color: lavender;
+}
+.map>iframe{
+
+    margin-left: 15%;
+    box-shadow: 8px 8px 4px gray;
+    margin-bottom: 1em;
+    border:2px solid tomato;
+}
+.links{
+    padding-left: 15%;
+}
+.links>div>a>img{
+    padding: 20px;
+}
+form{
+    display: inline-flex;
+    width: -webkit-fill-available;
+    padding: 5px;
+    box-shadow: 1px 1px 5px red;
+    border: 1px solid green;
+    background-color: aliceblue;
+    font-family:cursive;
+    font-size: larger;
+    text-transform: capitalize;
+    padding-left: 15%;
+}
+.vl {
+    padding-left: 15%;
+    border-right: 1px solid green;
+    height:auto;
+  }
+.skills{
+    display: flex;
+    justify-content: center;
+}
+.skills>p{
+    margin-left: 1%;
+}
+.project{
+    display: inline-flex;
+}
