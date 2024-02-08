@@ -4,10 +4,15 @@ body{
     background-repeat: repeat;
     opacity: 1;
 }
+.navbar-nav{
+    width: 43%;
+    justify-content: space-evenly;
+}
 #resume{
+    width: 57%;
     color:red;
-    /* background-color:aquamarine; */
-    align-items: center;
+    display: flex;
+    justify-content: flex-start;
 }
 .contact{
     text-align: center;
@@ -20,10 +25,31 @@ body{
 #linkedin{
     margin-right: 20px;
 }
+.aboutme{
+    font-family: auto;
+    font-size: large;
+}
+tr,td{
+    border-width: 2;
+}
 .project{
     font-size: x-large;
     font-weight: 400;
-
+    display: inline-flex;
+}
+#cell{
+    /* width:40% ; */
+    border: 2px solid aqua;
+    box-shadow: 5px 5px 6px black;
+    /* margin: 1%; */
+    text-align: center;
+    background-color: cadetblue;
+    color: aqua;
+    font-family: auto;
+}
+.project>div>p>img{
+    height: 100px;
+    width: 100px;
 }
 #edu{
     width: 50%;
@@ -35,7 +61,8 @@ body{
     background-color: lavender;
 }
 .map>iframe{
-
+    height: auto;
+    width: auto;
     margin-left: 15%;
     box-shadow: 8px 8px 4px gray;
     margin-bottom: 1em;
@@ -47,30 +74,33 @@ body{
 .links>div>a>img{
     padding: 20px;
 }
-form{
-    display: inline-flex;
-    width: -webkit-fill-available;
-    padding: 5px;
+footer{
+    background-color: aliceblue;
     box-shadow: 1px 1px 5px red;
     border: 1px solid green;
-    background-color: aliceblue;
+    width: -webkit-fill-available;
+}
+form{
     font-family:cursive;
     font-size: larger;
     text-transform: capitalize;
     padding-left: 15%;
+    border-right: 1px solid gray;
 }
-.vl {
+/* .vl {
     padding-left: 15%;
     border-right: 1px solid green;
     height:auto;
-  }
+  } */
 .skills{
+    height: 23%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
-.skills>p{
-    margin-left: 1%;
+.skills>p>img{
+    height: 100%;
+    width: auto;
+    padding: 12px;
 }
-.project{
-    display: inline-flex;
-}
+
