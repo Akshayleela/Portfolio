@@ -57,12 +57,32 @@ tr,td{
     margin-left: 24%;
     height: 20%;
 }
-#edu>tbody>tr>th{
-    background-color: lavender;
+
+.skill-sec {
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
 }
+
+/* CSS for the hover effect */
+.skill-sec:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.skill-img{
+    height: 100%;
+    width: auto;
+    padding: 12px;
+}
+.project-image{
+    height: 200px;
+    object-fit: cover;
+}
+
 .map>iframe{
     height: auto;
-    width: auto;
+    width: -webkit-fill-available;
     margin-left: 15%;
     box-shadow: 8px 8px 4px gray;
     margin-bottom: 1em;
@@ -92,15 +112,4 @@ form{
     border-right: 1px solid green;
     height:auto;
   } */
-.skills{
-    height: 23%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.skills>p>img{
-    height: 100%;
-    width: auto;
-    padding: 12px;
-}
 
