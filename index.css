@@ -1,0 +1,115 @@
+body{
+    
+    background-color: blanchedalmond;
+    background-repeat: repeat;
+    opacity: 1;
+}
+.navbar-nav{
+    width: 43%;
+    justify-content: space-evenly;
+}
+#resume{
+    width: 57%;
+    color:red;
+    display: flex;
+    justify-content: flex-start;
+}
+.contact{
+    text-align: center;
+    font-family:cursive;
+}
+#email{
+    margin-right: 16px;
+    margin-left: -44px;
+}
+#linkedin{
+    margin-right: 20px;
+}
+.aboutme{
+    font-family: auto;
+    font-size: large;
+}
+tr,td{
+    border-width: 2;
+}
+.project{
+    font-size: x-large;
+    font-weight: 400;
+    display: inline-flex;
+}
+#cell{
+    /* width:40% ; */
+    border: 2px solid aqua;
+    box-shadow: 5px 5px 6px black;
+    /* margin: 1%; */
+    text-align: center;
+    background-color: cadetblue;
+    color: aqua;
+    font-family: auto;
+}
+.project>div>p>img{
+    height: 100px;
+    width: 100px;
+}
+#edu{
+    width: 50%;
+    text-align: center;
+    margin-left: 24%;
+    height: 20%;
+}
+
+.skill-sec {
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+/* CSS for the hover effect */
+.skill-sec:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.skill-img{
+    height: 100%;
+    width: auto;
+    padding: 12px;
+}
+.project-image{
+    height: 200px;
+    object-fit: cover;
+}
+
+.map>iframe{
+    height: auto;
+    width: -webkit-fill-available;
+    margin-left: 15%;
+    box-shadow: 8px 8px 4px gray;
+    margin-bottom: 1em;
+    border:2px solid tomato;
+}
+.links{
+    padding-left: 15%;
+}
+.links>div>a>img{
+    padding: 20px;
+}
+footer{
+    background-color: aliceblue;
+    box-shadow: 1px 1px 5px red;
+    border: 1px solid green;
+    width: -webkit-fill-available;
+}
+form{
+    font-family:cursive;
+    font-size: larger;
+    text-transform: capitalize;
+    padding-left: 15%;
+    border-right: 1px solid gray;
+}
+/* .vl {
+    padding-left: 15%;
+    border-right: 1px solid green;
+    height:auto;
+  } */
+
